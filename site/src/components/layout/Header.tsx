@@ -401,13 +401,13 @@ export function Header({ isMobileMenuOpen = false, onMobileMenuToggle }: HeaderP
               <a
                 href={`tel:+1${PHONE_RAW}` as never}
                 className={cn(
-                  'hidden md:flex items-center gap-2 text-sm font-medium transition-colors duration-300 hover:text-orange-500',
+                  'hidden md:flex items-center gap-2 text-sm font-medium transition-colors duration-300 hover:text-orange-500 whitespace-nowrap',
                   scrolled ? 'text-slate-700' : 'text-white',
                 )}
                 aria-label={`Call ${PHONE_NUMBER}`}
               >
-                <Phone className="w-4 h-4" />
-                <span className="hidden xl:inline">{PHONE_NUMBER}</span>
+                <Phone className="w-4 h-4 flex-shrink-0" />
+                <span className="hidden xl:inline whitespace-nowrap">{PHONE_NUMBER}</span>
               </a>
 
               {/* Language Switcher */}
