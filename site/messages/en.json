@@ -1,0 +1,246 @@
+{
+  "common": {
+    "companyName": "MB Clean Solutions",
+    "tagline": "South Florida's Commercial Cleaning Specialists",
+    "phone": "(954) 482-5008",
+    "email": "info@mbcleansolutions.com",
+    "address": "2980 NE 207th ST, Suite 300, Aventura, FL 33180",
+    "serviceArea": "Miami-Dade, Broward & Palm Beach Counties",
+    "cta": {
+      "freeEstimate": "Free Estimate",
+      "callNow": "Call Now",
+      "requestQuote": "Free Estimate",
+      "scheduleVisit": "Schedule a Free Site Visit",
+      "quickQuote": "Get a Quote in 60 Seconds",
+      "learnMore": "Learn More",
+      "viewServices": "View All Services",
+      "viewAreas": "View Service Areas",
+      "contactUs": "Contact Us",
+      "freeQuote": "Free Estimate"
+    },
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "industries": "Industries",
+      "areas": "Service Areas",
+      "about": "About Us",
+      "reviews": "Reviews",
+      "blog": "Blog",
+      "contact": "Contact",
+      "freeQuote": "Free Estimate"
+    },
+    "footer": {
+      "description": "Professional commercial cleaning services serving South Florida's Miami-Dade, Broward, and Palm Beach counties. Project-based deep cleaning, floor care, and specialty services.",
+      "servicesTitle": "Our Services",
+      "areasTitle": "Service Areas",
+      "companyTitle": "Company",
+      "contactTitle": "Contact Us",
+      "rights": "All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "sitemap": "Sitemap"
+    },
+    "trust": {
+      "licensed": "Licensed & Insured",
+      "locallyOwned": "Locally Owned",
+      "satisfaction": "100% Satisfaction Guarantee",
+      "freeEstimates": "Free Estimates",
+      "sbe": "SBE Certified",
+      "wosb": "WOSB Certified",
+      "yearsInBusiness": "Years in Business",
+      "projectsCompleted": "Projects Completed",
+      "satisfactionRate": "Satisfaction Rate",
+      "countiesServed": "Counties Served"
+    },
+    "pricing": {
+      "disclaimer": "Prices vary based on surface condition, square footage, accessibility, and project scope. Request a free on-site assessment for an accurate quote.",
+      "startingAt": "Starting at",
+      "perSqft": "per sq ft",
+      "perVent": "per vent",
+      "requestEstimate": "Free Estimate"
+    },
+    "form": {
+      "name": "Full Name",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "message": "Message",
+      "service": "Select a Service",
+      "propertyType": "Property Type",
+      "squareFootage": "Approximate Square Footage",
+      "preferredDate": "Preferred Date",
+      "submit": "Submit",
+      "sending": "Sending...",
+      "success": "Thank you! We'll be in touch within 24 hours.",
+      "error": "Something went wrong. Please try again or call us directly.",
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "invalidPhone": "Please enter a valid phone number",
+      "step": "Step",
+      "of": "of",
+      "next": "Next",
+      "previous": "Back",
+      "selectService": "What service do you need?",
+      "propertyDetails": "Tell us about your property",
+      "contactInfo": "Your contact information"
+    },
+    "meta": {
+      "ogSiteName": "MB Clean Solutions",
+      "locale": "en_US"
+    }
+  },
+  "home": {
+    "hero": {
+      "headline": "South Florida's Premier Commercial Cleaning Specialists",
+      "subheadline": "Expert project-based deep cleaning, floor restoration, and specialty services for Miami-Dade, Broward & Palm Beach businesses.",
+      "badge": "Locally Owned · Not a Franchise"
+    },
+    "stats": {
+      "years": "10+",
+      "yearsLabel": "Years of Experience",
+      "projects": "2,500+",
+      "projectsLabel": "Projects Completed",
+      "satisfaction": "100%",
+      "satisfactionLabel": "Satisfaction Guarantee",
+      "counties": "3",
+      "countiesLabel": "Counties Served"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Specialized commercial cleaning and restoration services delivered with expert precision."
+    },
+    "whyUs": {
+      "title": "Why Choose MB Clean Solutions?",
+      "subtitle": "We're not a franchise. We're your neighbors — locally owned specialists who treat every project like our reputation depends on it. Because it does.",
+      "items": {
+        "local": {
+          "title": "Locally Owned & Operated",
+          "description": "Direct owner accountability on every project. No franchise middlemen, no cookie-cutter protocols."
+        },
+        "expert": {
+          "title": "Expert Specialists",
+          "description": "Our team specializes in project-based deep cleaning and restoration — not basic janitorial. We bring commercial-grade equipment and proven techniques."
+        },
+        "guarantee": {
+          "title": "100% Satisfaction Guarantee",
+          "description": "Not happy with the results? We'll come back and make it right — no questions asked, no fine print."
+        },
+        "transparent": {
+          "title": "Transparent Pricing",
+          "description": "Upfront price ranges on every service. No hidden fees, no surprise charges. Free on-site assessments for accurate quotes."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Getting your space professionally cleaned is simple.",
+      "steps": {
+        "step1": {
+          "title": "Request a Free Estimate",
+          "description": "Tell us about your space and what you need. We'll schedule a free on-site assessment."
+        },
+        "step2": {
+          "title": "Get Your Custom Quote",
+          "description": "We'll evaluate the scope, recommend the right services, and provide a transparent, detailed quote."
+        },
+        "step3": {
+          "title": "We Deliver Results",
+          "description": "Our expert team arrives on schedule with commercial-grade equipment and delivers spotless results — guaranteed."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "subtitle": "Don't just take our word for it — hear from South Florida businesses that trust MB Clean."
+    },
+    "cta": {
+      "title": "Ready for a Spotless Space?",
+      "subtitle": "Get a free, no-obligation estimate for your commercial cleaning project. Most quotes delivered within 24 hours.",
+      "button": "Free Estimate"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Specialized commercial cleaning and restoration services for South Florida businesses. Every project delivered with expert precision and guaranteed satisfaction.",
+    "pricing": "Pricing",
+    "whatsIncluded": "What's Included",
+    "ourProcess": "Our Process",
+    "faq": "Frequently Asked Questions",
+    "relatedServices": "Related Services",
+    "requestEstimate": "Free Estimate",
+    "viewAll": "View All Services",
+    "inlineCTA": {
+      "title": "Ready to Transform Your Space?",
+      "subtitle": "Get a free, no-obligation estimate today.",
+      "or": "or call"
+    }
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "subtitle": "Specialized commercial cleaning tailored to the unique needs of your industry."
+  },
+  "areas": {
+    "title": "Service Areas",
+    "subtitle": "Proudly serving businesses across South Florida's three major counties.",
+    "citiesServed": "Cities We Serve",
+    "countyHub": "County Services"
+  },
+  "about": {
+    "title": "About MB Clean Solutions",
+    "subtitle": "Locally owned, expert-driven commercial cleaning for South Florida businesses.",
+    "story": {
+      "title": "Our Story",
+      "description": "MB Clean Solutions was founded with a simple mission: deliver exceptional commercial cleaning results that the big franchises can't match. As a locally owned business serving Miami-Dade, Broward, and Palm Beach counties, we bring a level of personal accountability and expertise that sets us apart."
+    },
+    "certifications": {
+      "title": "Certifications & Compliance"
+    },
+    "guarantee": {
+      "title": "Our Guarantee",
+      "description": "Every project comes with our 100% satisfaction guarantee. If you're not completely happy with our work, we'll come back and make it right — at no additional cost."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch for a free estimate or to learn more about our services.",
+    "hours": {
+      "title": "Business Hours",
+      "weekdays": "Monday – Friday: 7:00 AM – 6:00 PM",
+      "saturday": "Saturday: 8:00 AM – 2:00 PM",
+      "sunday": "Sunday: Closed"
+    },
+    "responseTime": "Most inquiries receive a response within 24 hours."
+  },
+  "reviews": {
+    "title": "Client Reviews",
+    "subtitle": "See what South Florida businesses say about our commercial cleaning services.",
+    "overallRating": "Overall Rating",
+    "basedOn": "Based on {count} reviews"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Expert tips, industry insights, and commercial cleaning guides for South Florida businesses.",
+    "readMore": "Read More",
+    "minRead": "min read",
+    "publishedOn": "Published on",
+    "relatedArticles": "Related Articles",
+    "categories": "Categories",
+    "allPosts": "All Posts"
+  },
+  "quote": {
+    "title": "Get Your Free Estimate",
+    "subtitle": "Fill out the form below and we'll provide a detailed, no-obligation quote within 24 hours.",
+    "trustSignals": {
+      "fast": "Fast Response — Quotes within 24 hours",
+      "obligation": "No Obligation — Zero pressure, zero commitment",
+      "transparent": "Transparent — Upfront pricing, no hidden fees"
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  }
+}

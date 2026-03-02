@@ -1,0 +1,246 @@
+{
+  "common": {
+    "companyName": "MB Clean Solutions",
+    "tagline": "Especialistas en Limpieza Comercial del Sur de Florida",
+    "phone": "(954) 482-5008",
+    "email": "info@mbcleansolutions.com",
+    "address": "2980 NE 207th ST, Suite 300, Aventura, FL 33180",
+    "serviceArea": "Condados de Miami-Dade, Broward y Palm Beach",
+    "cta": {
+      "freeEstimate": "Cotización Gratis",
+      "callNow": "Llame Ahora",
+      "requestQuote": "Cotización Gratis",
+      "scheduleVisit": "Programe una Visita Gratis",
+      "quickQuote": "Cotización en 60 Segundos",
+      "learnMore": "Más Información",
+      "viewServices": "Ver Todos los Servicios",
+      "viewAreas": "Ver Áreas de Servicio",
+      "contactUs": "Contáctenos",
+      "freeQuote": "Cotización Gratis"
+    },
+    "nav": {
+      "home": "Inicio",
+      "services": "Servicios",
+      "industries": "Industrias",
+      "areas": "Áreas de Servicio",
+      "about": "Nosotros",
+      "reviews": "Reseñas",
+      "blog": "Blog",
+      "contact": "Contacto",
+      "freeQuote": "Cotización Gratis"
+    },
+    "footer": {
+      "description": "Servicios profesionales de limpieza comercial sirviendo los condados de Miami-Dade, Broward y Palm Beach del Sur de Florida. Limpieza profunda por proyecto, cuidado de pisos y servicios especializados.",
+      "servicesTitle": "Nuestros Servicios",
+      "areasTitle": "Áreas de Servicio",
+      "companyTitle": "Empresa",
+      "contactTitle": "Contáctenos",
+      "rights": "Todos los derechos reservados.",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "sitemap": "Mapa del Sitio"
+    },
+    "trust": {
+      "licensed": "Licenciados y Asegurados",
+      "locallyOwned": "Empresa Local",
+      "satisfaction": "100% Garantía de Satisfacción",
+      "freeEstimates": "Estimados Gratis",
+      "sbe": "Certificación SBE",
+      "wosb": "Certificación WOSB",
+      "yearsInBusiness": "Años de Experiencia",
+      "projectsCompleted": "Proyectos Completados",
+      "satisfactionRate": "Tasa de Satisfacción",
+      "countiesServed": "Condados Servidos"
+    },
+    "pricing": {
+      "disclaimer": "Los precios varían según la condición de la superficie, los pies cuadrados, la accesibilidad y el alcance del proyecto. Solicite una evaluación gratuita en el sitio para una cotización precisa.",
+      "startingAt": "Desde",
+      "perSqft": "por pie²",
+      "perVent": "por ventila",
+      "requestEstimate": "Cotización Gratis"
+    },
+    "form": {
+      "name": "Nombre Completo",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "company": "Nombre de la Empresa",
+      "message": "Mensaje",
+      "service": "Seleccione un Servicio",
+      "propertyType": "Tipo de Propiedad",
+      "squareFootage": "Pies Cuadrados Aproximados",
+      "preferredDate": "Fecha Preferida",
+      "submit": "Enviar",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Nos comunicaremos dentro de 24 horas.",
+      "error": "Algo salió mal. Intente de nuevo o llámenos directamente.",
+      "required": "Este campo es obligatorio",
+      "invalidEmail": "Ingrese un correo electrónico válido",
+      "invalidPhone": "Ingrese un número de teléfono válido",
+      "step": "Paso",
+      "of": "de",
+      "next": "Siguiente",
+      "previous": "Atrás",
+      "selectService": "¿Qué servicio necesita?",
+      "propertyDetails": "Cuéntenos sobre su propiedad",
+      "contactInfo": "Su información de contacto"
+    },
+    "meta": {
+      "ogSiteName": "MB Clean Solutions",
+      "locale": "es_US"
+    }
+  },
+  "home": {
+    "hero": {
+      "headline": "Especialistas en Limpieza Comercial del Sur de Florida",
+      "subheadline": "Limpieza profunda por proyecto, restauración de pisos y servicios especializados para negocios de Miami-Dade, Broward y Palm Beach.",
+      "badge": "Empresa Local · No Somos Franquicia"
+    },
+    "stats": {
+      "years": "10+",
+      "yearsLabel": "Años de Experiencia",
+      "projects": "2,500+",
+      "projectsLabel": "Proyectos Completados",
+      "satisfaction": "100%",
+      "satisfactionLabel": "Garantía de Satisfacción",
+      "counties": "3",
+      "countiesLabel": "Condados Servidos"
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "subtitle": "Servicios especializados de limpieza comercial y restauración con precisión experta."
+    },
+    "whyUs": {
+      "title": "¿Por Qué Elegir MB Clean Solutions?",
+      "subtitle": "No somos una franquicia. Somos sus vecinos — especialistas locales que tratan cada proyecto como si nuestra reputación dependiera de ello. Porque así es.",
+      "items": {
+        "local": {
+          "title": "Empresa Local y Operada Localmente",
+          "description": "Responsabilidad directa del propietario en cada proyecto. Sin intermediarios de franquicia, sin protocolos genéricos."
+        },
+        "expert": {
+          "title": "Especialistas Expertos",
+          "description": "Nuestro equipo se especializa en limpieza profunda y restauración por proyecto, no en conserjería básica. Traemos equipo de grado comercial y técnicas comprobadas."
+        },
+        "guarantee": {
+          "title": "100% Garantía de Satisfacción",
+          "description": "¿No está satisfecho con los resultados? Volveremos y lo corregiremos — sin preguntas, sin letra pequeña."
+        },
+        "transparent": {
+          "title": "Precios Transparentes",
+          "description": "Rangos de precios claros en cada servicio. Sin cargos ocultos, sin sorpresas. Evaluaciones gratuitas en sitio para cotizaciones precisas."
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "subtitle": "Obtener una limpieza profesional para su espacio es simple.",
+      "steps": {
+        "step1": {
+          "title": "Solicite un Estimado Gratis",
+          "description": "Cuéntenos sobre su espacio y lo que necesita. Programaremos una evaluación gratuita en sitio."
+        },
+        "step2": {
+          "title": "Reciba Su Cotización Personalizada",
+          "description": "Evaluaremos el alcance, recomendaremos los servicios adecuados y proporcionaremos una cotización detallada y transparente."
+        },
+        "step3": {
+          "title": "Entregamos Resultados",
+          "description": "Nuestro equipo experto llega a tiempo con equipo de grado comercial y entrega resultados impecables — garantizado."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Lo Que Dicen Nuestros Clientes",
+      "subtitle": "No solo confíe en nuestra palabra — escuche a los negocios del Sur de Florida que confían en MB Clean."
+    },
+    "cta": {
+      "title": "¿Listo Para un Espacio Impecable?",
+      "subtitle": "Obtenga un estimado gratis y sin compromiso para su proyecto de limpieza comercial. La mayoría de las cotizaciones se entregan en 24 horas.",
+      "button": "Cotización Gratis"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Servicios especializados de limpieza comercial y restauración para negocios del Sur de Florida. Cada proyecto entregado con precisión experta y satisfacción garantizada.",
+    "pricing": "Precios",
+    "whatsIncluded": "Qué Incluye",
+    "ourProcess": "Nuestro Proceso",
+    "faq": "Preguntas Frecuentes",
+    "relatedServices": "Servicios Relacionados",
+    "requestEstimate": "Cotización Gratis",
+    "viewAll": "Ver Todos los Servicios",
+    "inlineCTA": {
+      "title": "¿Listo para Transformar su Espacio?",
+      "subtitle": "Obtenga una cotización gratis y sin compromiso hoy.",
+      "or": "o llame al"
+    }
+  },
+  "industries": {
+    "title": "Industrias que Servimos",
+    "subtitle": "Limpieza comercial especializada adaptada a las necesidades únicas de su industria."
+  },
+  "areas": {
+    "title": "Áreas de Servicio",
+    "subtitle": "Sirviendo orgullosamente a negocios en los tres principales condados del Sur de Florida.",
+    "citiesServed": "Ciudades que Servimos",
+    "countyHub": "Servicios del Condado"
+  },
+  "about": {
+    "title": "Sobre MB Clean Solutions",
+    "subtitle": "Empresa local, impulsada por expertos en limpieza comercial para negocios del Sur de Florida.",
+    "story": {
+      "title": "Nuestra Historia",
+      "description": "MB Clean Solutions fue fundada con una misión simple: entregar resultados excepcionales de limpieza comercial que las grandes franquicias no pueden igualar. Como negocio local sirviendo los condados de Miami-Dade, Broward y Palm Beach, traemos un nivel de responsabilidad personal y experiencia que nos distingue."
+    },
+    "certifications": {
+      "title": "Certificaciones y Cumplimiento"
+    },
+    "guarantee": {
+      "title": "Nuestra Garantía",
+      "description": "Cada proyecto viene con nuestra garantía de 100% satisfacción. Si no está completamente satisfecho con nuestro trabajo, volveremos y lo corregiremos — sin costo adicional."
+    }
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Comuníquese para un estimado gratis o para aprender más sobre nuestros servicios.",
+    "hours": {
+      "title": "Horario de Atención",
+      "weekdays": "Lunes – Viernes: 7:00 AM – 6:00 PM",
+      "saturday": "Sábado: 8:00 AM – 2:00 PM",
+      "sunday": "Domingo: Cerrado"
+    },
+    "responseTime": "La mayoría de las consultas reciben respuesta dentro de 24 horas."
+  },
+  "reviews": {
+    "title": "Reseñas de Clientes",
+    "subtitle": "Vea lo que dicen los negocios del Sur de Florida sobre nuestros servicios de limpieza comercial.",
+    "overallRating": "Calificación General",
+    "basedOn": "Basado en {count} reseñas"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Consejos de expertos, conocimientos de la industria y guías de limpieza comercial para negocios del Sur de Florida.",
+    "readMore": "Leer Más",
+    "minRead": "min de lectura",
+    "publishedOn": "Publicado el",
+    "relatedArticles": "Artículos Relacionados",
+    "categories": "Categorías",
+    "allPosts": "Todos los Artículos"
+  },
+  "quote": {
+    "title": "Obtenga Su Estimado Gratis",
+    "subtitle": "Complete el formulario y le proporcionaremos una cotización detallada sin compromiso en 24 horas.",
+    "trustSignals": {
+      "fast": "Respuesta Rápida — Cotizaciones en 24 horas",
+      "obligation": "Sin Compromiso — Cero presión, cero obligación",
+      "transparent": "Transparente — Precios claros, sin cargos ocultos"
+    }
+  },
+  "notFound": {
+    "title": "Página No Encontrada",
+    "description": "La página que busca no existe o ha sido movida.",
+    "backHome": "Volver al Inicio"
+  }
+}

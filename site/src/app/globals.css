@@ -1,0 +1,186 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  /* ─── Colors ─── */
+  --color-navy-50: #e6edf2;
+  --color-navy-100: #ccdbe5;
+  --color-navy-200: #99b7cb;
+  --color-navy-300: #6693b1;
+  --color-navy-400: #336f97;
+  --color-navy-500: #00354e;
+  --color-navy-600: #002a3e;
+  --color-navy-700: #001f2f;
+  --color-navy-800: #00151f;
+  --color-navy-900: #000a10;
+  --color-navy-950: #000508;
+
+  --color-orange-50: #fff7ed;
+  --color-orange-100: #ffedd5;
+  --color-orange-200: #fed7aa;
+  --color-orange-300: #fdba74;
+  --color-orange-400: #fb923c;
+  --color-orange-500: #f97316;
+  --color-orange-600: #ea580c;
+  --color-orange-700: #c2410c;
+  --color-orange-800: #9a3412;
+  --color-orange-900: #7c2d12;
+
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+
+  /* ─── Fonts ─── */
+  --font-heading: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* ─── Easing ─── */
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+
+  /* ─── Animations ─── */
+  --animate-fade-in: fade-in 0.6s var(--ease-smooth) forwards;
+  --animate-fade-up: fade-up 0.6s var(--ease-smooth) forwards;
+  --animate-fade-down: fade-down 0.5s var(--ease-smooth) forwards;
+  --animate-slide-left: slide-left 0.5s var(--ease-smooth) forwards;
+  --animate-slide-right: slide-right 0.5s var(--ease-smooth) forwards;
+  --animate-scale-in: scale-in 0.4s var(--ease-bounce) forwards;
+  --animate-pulse-glow: pulse-glow 2s ease-in-out infinite;
+  --animate-counter: counter 2s var(--ease-smooth) forwards;
+  --animate-shimmer: shimmer 2s linear infinite;
+
+  /* ─── Shadows ─── */
+  --shadow-glass: 0 8px 32px rgba(0, 53, 78, 0.08);
+  --shadow-glass-lg: 0 16px 48px rgba(0, 53, 78, 0.12);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.06), 0 4px 12px rgba(0, 53, 78, 0.06);
+  --shadow-card-hover: 0 4px 8px rgba(0, 0, 0, 0.08), 0 12px 32px rgba(0, 53, 78, 0.12);
+  --shadow-button: 0 1px 2px rgba(0, 0, 0, 0.05), 0 4px 12px rgba(249, 115, 22, 0.25);
+  --shadow-inner-glow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+/* ─── Keyframes ─── */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-down {
+  from { opacity: 0; transform: translateY(-16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-left {
+  from { opacity: 0; transform: translateX(32px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slide-right {
+  from { opacity: 0; transform: translateX(-32px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.4); }
+  50% { box-shadow: 0 0 20px 8px rgba(249, 115, 22, 0.15); }
+}
+
+@keyframes counter {
+  from { --counter-value: 0; }
+  to { --counter-value: var(--target); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* ─── Base Styles ─── */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-slate-800);
+  background: var(--color-slate-50);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* ─── Glassmorphism Utilities ─── */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-dark {
+  background: rgba(0, 53, 78, 0.8);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-slate-100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-slate-300);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-slate-400);
+}
+
+/* ─── Selection ─── */
+::selection {
+  background: rgba(0, 53, 78, 0.15);
+  color: var(--color-navy-700);
+}
+
+/* ─── Focus Styles ─── */
+:focus-visible {
+  outline: 2px solid var(--color-orange-500);
+  outline-offset: 2px;
+}
+
+/* ─── Safe area for mobile bottom bar ─── */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.mb-safe {
+  margin-bottom: env(safe-area-inset-bottom, 0px);
+}
