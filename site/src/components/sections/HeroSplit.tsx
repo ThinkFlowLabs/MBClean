@@ -232,13 +232,13 @@ export function HeroSplit() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.9, ease: smoothEase, delay: 0.3 }}
           >
-            {/* Main Hero Image -- prominently visible */}
-            <div className="relative h-[540px] xl:h-[600px] rounded-3xl overflow-hidden shadow-2xl">
+            {/* Main Hero Image -- fully visible, no cropping */}
+            <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/hero/homepage-hero.webp"
-                alt="Professional commercial cleaning in South Florida"
+                alt="Professional commercial deep cleaning team in South Florida"
                 fill
-                className="object-cover"
+                className="object-cover object-center"
                 sizes="45vw"
                 priority
               />
