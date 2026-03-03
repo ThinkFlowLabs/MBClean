@@ -6,8 +6,9 @@ import Image from 'next/image';
 import { Section, SectionHeader, Container } from '@/components/ui';
 import { cn } from '@/lib/utils/cn';
 import {
-  MapPin, Wrench, ShieldCheck, Award, BadgeCheck, Heart,
+  MapPin, Wrench, ShieldCheck, Award, BadgeCheck, Heart, Building2,
 } from 'lucide-react';
+import { ADDRESS } from '@/lib/content/navigation';
 
 const smoothEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
@@ -92,6 +93,15 @@ export function AboutContent() {
             <p className="text-slate-600 leading-relaxed text-lg">
               {t('story.description')}
             </p>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=2980+NE+207th+ST+Suite+300+Aventura+FL+33180"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center gap-2 text-sm text-navy-500 hover:text-orange-500 transition-colors font-medium"
+            >
+              <Building2 className="w-4 h-4" />
+              {ADDRESS}
+            </a>
           </motion.div>
         </motion.div>
       </Section>

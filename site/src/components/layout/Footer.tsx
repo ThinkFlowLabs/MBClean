@@ -2,8 +2,8 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { services } from '@/lib/content/services';
 import { counties } from '@/lib/content/areas';
-import { PHONE_NUMBER, PHONE_RAW, EMAIL, COMPANY_NAME } from '@/lib/content/navigation';
-import { Phone, Mail, MapPin, ArrowUpRight } from 'lucide-react';
+import { PHONE_NUMBER, PHONE_RAW, EMAIL, ADDRESS, COMPANY_NAME } from '@/lib/content/navigation';
+import { Phone, Mail, MapPin, Building2, ArrowUpRight } from 'lucide-react';
 
 export function Footer() {
   const t = useTranslations('common');
@@ -41,6 +41,15 @@ export function Footer() {
               >
                 <Mail className="w-4 h-4 text-orange-500/70 group-hover:text-orange-400" />
                 {EMAIL}
+              </a>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=2980+NE+207th+ST+Suite+300+Aventura+FL+33180"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-2.5 text-sm text-white/70 hover:text-orange-400 transition-colors group"
+              >
+                <Building2 className="w-4 h-4 text-orange-500/70 group-hover:text-orange-400 mt-0.5 flex-shrink-0" />
+                <span>{ADDRESS}</span>
               </a>
               <div className="flex items-center gap-2.5 text-sm text-white/70">
                 <MapPin className="w-4 h-4 text-orange-500/70" />

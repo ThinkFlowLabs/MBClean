@@ -6,8 +6,8 @@ import Image from 'next/image';
 import { Section, Container } from '@/components/ui';
 import { ContactForm } from '@/components/forms';
 import { cn } from '@/lib/utils/cn';
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
-import { PHONE_NUMBER, PHONE_RAW, EMAIL } from '@/lib/content/navigation';
+import { Phone, Mail, MapPin, Clock, Building2 } from 'lucide-react';
+import { PHONE_NUMBER, PHONE_RAW, EMAIL, ADDRESS } from '@/lib/content/navigation';
 
 const smoothEase: [number, number, number, number] = [0.16, 1, 0.3, 1];
 
@@ -35,6 +35,7 @@ export function ContactPageContent() {
   const contactInfo = [
     { icon: Phone, label: PHONE_NUMBER, href: `tel:${PHONE_RAW}` },
     { icon: Mail, label: EMAIL, href: `mailto:${EMAIL}` },
+    { icon: Building2, label: ADDRESS, href: 'https://www.google.com/maps/search/?api=1&query=2980+NE+207th+ST+Suite+300+Aventura+FL+33180' },
     { icon: MapPin, label: tc('serviceArea'), href: undefined },
     { icon: Clock, label: 'Mon–Sat: 7am–7pm', href: undefined },
   ];
@@ -102,7 +103,10 @@ export function ContactPageContent() {
                 return (
                   <Wrapper
                     key={item.label}
-                    {...(item.href ? { href: item.href } : {})}
+                    {...(item.href ? {
+                      href: item.href,
+                      ...(item.href.startsWith('http') ? { target: '_blank', rel: 'noopener noreferrer' } : {}),
+                    } : {})}
                     className={cn(
                       'flex items-start gap-4 p-4 rounded-xl bg-slate-50 border border-slate-100',
                       item.href && 'hover:bg-orange-50 hover:border-orange-100 transition-colors cursor-pointer',
