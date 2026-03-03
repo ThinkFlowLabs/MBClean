@@ -189,13 +189,14 @@ export function ServicePageContent({
               key={i}
               background={i % 2 === 0 ? 'white' : 'slate'}
               padding="sm"
+              animate={false}
               className={hasContentImage ? 'pt-6 sm:pt-8' : undefined}
             >
               <motion.div
                 variants={stagger}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, amount: 0.15 }}
+                viewport={{ once: true, amount: 0.05 }}
                 className="max-w-4xl mx-auto"
               >
                 {/* Content image inside first section */}
@@ -253,13 +254,13 @@ export function ServicePageContent({
 
       {/* ── What's Included ── */}
       {pageContent && pageContent.included.length > 0 && (
-        <Section background="white" padding="sm">
-          <SectionHeader title={t('whatsIncluded')} />
+        <Section background="white" padding="sm" animate={false}>
+          <SectionHeader title={t('whatsIncluded')} animate={false} />
           <motion.div
             variants={stagger}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.15 }}
+            viewport={{ once: true, amount: 0.05 }}
             className="max-w-3xl mx-auto"
           >
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -285,11 +286,11 @@ export function ServicePageContent({
 
       {/* ── Before/After or Service Image ── */}
       {serviceBeforeAfterMap[service.slug] && (
-        <Section background="white" padding="sm">
+        <Section background="white" padding="sm" animate={false}>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.15 }}
+            viewport={{ once: true, amount: 0.05 }}
             transition={{ duration: 0.6, ease: smoothEase }}
             className="max-w-4xl mx-auto"
           >
@@ -349,13 +350,13 @@ export function ServicePageContent({
 
       {/* ── Our Process ── */}
       {pageContent && pageContent.process.length > 0 && (
-        <Section background="slate" padding="sm">
-          <SectionHeader title={t('ourProcess')} />
+        <Section background="slate" padding="sm" animate={false}>
+          <SectionHeader title={t('ourProcess')} animate={false} />
           <motion.div
             variants={stagger}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.15 }}
+            viewport={{ once: true, amount: 0.05 }}
             className="max-w-3xl mx-auto"
           >
             <div className="space-y-6">

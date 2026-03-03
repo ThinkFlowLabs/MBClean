@@ -153,8 +153,8 @@ export const counterVariants: Variants = {
 // ─── Scroll-triggered viewport settings ───
 export const scrollViewport = {
   once: true,
-  amount: 0.2 as const,
-  margin: '-50px',
+  amount: 0.05 as const,
+  margin: '-20px',
 };
 
 export const scrollViewportEager = {

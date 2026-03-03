@@ -86,12 +86,12 @@ export function ServicesOverview() {
       </section>
 
       {/* Services Grid */}
-      <Section background="white" padding="lg">
+      <Section background="white" padding="lg" animate={false}>
         <motion.div
           variants={stagger}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
+          viewport={{ once: true, amount: 0.05 }}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
         >
           {services.map((service) => {
