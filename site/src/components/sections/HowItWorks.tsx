@@ -68,7 +68,7 @@ export function HowItWorks() {
               <h3 className="mt-6 font-heading font-bold text-lg text-navy-500">
                 {t(`howItWorks.steps.${step.key}.title`)}
               </h3>
-              <p className="mt-2 text-sm text-slate-500 leading-relaxed max-w-xs mx-auto text-justify">
+              <p className="mt-2 text-sm text-slate-500 leading-relaxed max-w-xs mx-auto">
                 {t(`howItWorks.steps.${step.key}.description`)}
               </p>
 

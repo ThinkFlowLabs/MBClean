@@ -86,7 +86,7 @@ export function WhyChooseUs() {
             </h3>
 
             {/* Description */}
-            <p className="mt-2 text-sm text-slate-500 leading-relaxed text-justify">
+            <p className="mt-2 text-sm text-slate-500 leading-relaxed">
               {t(`whyUs.items.${item.titleKey}.description`)}
             </p>
           </motion.div>
