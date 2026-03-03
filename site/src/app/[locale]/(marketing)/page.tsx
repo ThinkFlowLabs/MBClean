@@ -86,15 +86,11 @@ export default function HomePage() {
       <HeroSplit />
       <StatsBar />
       <TrustBar />
+      <BeforeAfterGallery images={beforeAfterImages} />
       <ServiceCards />
       <WhyChooseUs />
       <HowItWorks />
       <TestimonialsCarousel />
-      <BeforeAfterGallery
-        images={beforeAfterImages}
-        title="See the Difference"
-        subtitle="Real results from recent MB Clean Solutions projects across South Florida."
-      />
       <ServiceAreaMap />
       <CTASection />
     </>

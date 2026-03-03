@@ -29,8 +29,6 @@ interface BeforeAfterImage {
 
 interface BeforeAfterGalleryProps {
   images: BeforeAfterImage[];
-  title?: string;
-  subtitle?: string;
 }
 
 /* ═══════════════════════════════════════════════════
@@ -129,14 +127,15 @@ function ComparisonSlider({ image }: { image: BeforeAfterImage }) {
 /* ═══════════════════════════════════════════════════
    Gallery Component
    ═══════════════════════════════════════════════════ */
-export function BeforeAfterGallery({
-  images,
-  title = 'See the Difference',
-  subtitle,
-}: BeforeAfterGalleryProps) {
+export function BeforeAfterGallery({ images }: BeforeAfterGalleryProps) {
+  const t = useTranslations('home');
+
   return (
     <Section background="white" padding="lg" id="before-after">
-      <SectionHeader title={title} subtitle={subtitle} />
+      <SectionHeader
+        title={t('beforeAfter.title')}
+        subtitle={t('beforeAfter.subtitle')}
+      />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
         {images.map((image, i) => (
